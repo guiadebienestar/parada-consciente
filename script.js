@@ -1,0 +1,1 @@
+alert("Parada Consciente cargada.");
