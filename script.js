@@ -2,20 +2,42 @@ const boton = document.querySelector("button");
 const circulo = document.getElementById("circulo");
 
 boton.onclick = function () {
+
     boton.style.display = "none";
 
-    let grande = false;
+    let inhalando = true;
+
+    circulo.innerHTML = "INHALÁ";
 
     setInterval(function () {
-        if (grande) {
-            circulo.style.transform = "scale(1)";
-        } else {
+
+        if (inhalando) {
             circulo.style.transform = "scale(1.4)";
+            circulo.innerHTML = "INHALÁ";
+        } else {
+            circulo.style.transform = "scale(1)";
+            circulo.innerHTML = "EXHALÁ";
         }
 
-        grande = !grande;
+        inhalando = !inhalando;
+
     }, 2000);
+
 };
+
+    
+
+    
+
+    
+        
+            
+        
+        
+
+    
+    
+
 
 
 
