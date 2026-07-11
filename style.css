@@ -28,4 +28,10 @@ button{
     background:#2F5A2D;
     border-radius:50%;
     margin:40px auto;
-}
+transition: transform 2s ease-in-out;
+display:flex;
+align-items:center;
+justify-content:center;
+color:white;
+font-weight:bold;
+font-size:18px;}
