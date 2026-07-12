@@ -38,7 +38,9 @@ boton.onclick = function () {
             clearInterval(reloj);
             tiempo.innerHTML = "✔";
             circulo.innerHTML = "✔";
-alert("¡Excelente! Tu cuello está listo para continuar el viaje.");
+tiempo.innerHTML = "";
+boton.style.display = "inline-block";
+boton.innerHTML = "Volver al ebook";
         }
 
     }, 1000);
