@@ -42,3 +42,24 @@ box-shadow: 0 0 35px rgba(47,90,45,0.45);
     color:#2F5A2D;
     margin-bottom:20px;
 }
+h1{
+    color:#2F5A2D;
+    font-size:34px;
+    margin-bottom:10px;
+}
+
+h2{
+    color:#476B3D;
+    margin-bottom:25px;
+}
+
+h3{
+    color:#5B5B5B;
+    font-weight:normal;
+}
+
+p{
+    font-size:18px;
+    color:#666;
+    margin-bottom:30px;
+}
